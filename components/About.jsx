@@ -13,8 +13,8 @@ const About = () => {
           </p>
           <h2 className='py-4'>What is My Story?</h2>
           <p className='py-2 text-gray-600'>
-            I'm passionate about software, machine learning, and their potential 
-            to solve complex problems and improve people's lives. Throughout my academic journey,
+            I&apos;m passionate about software, machine learning, and their potential 
+            to solve complex problems and improve people&apos;s lives. Throughout my academic journey,
             I have gained extensive experience in programming languages such as Python and C++ as well
             as deep knowledge of mathematics, including linear algebra and multivariate analysis. 
             My passion for technology has driven me to explore various software development and AI-related projects, 

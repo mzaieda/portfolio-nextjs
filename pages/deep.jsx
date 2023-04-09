@@ -27,7 +27,7 @@ const deep = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I leveraged Google's pre-trained transformer model, 
+            I leveraged Google&apos;s pre-trained transformer model, 
             Pegasus-large, to perform abstractive text summarization. 
             I applied two types of data augmentation techniques to the 
             XSum dataset and changed the word embedding algorithm to Word2Vec 

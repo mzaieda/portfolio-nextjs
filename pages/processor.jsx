@@ -29,16 +29,16 @@ const processor = () => {
           <p>
           I created a RISC-V 32-bit processor using Verilog, 
           a hardware description language. The project involved designing
-           and implementing the processor's datapath, including the ALU, 
+           and implementing the processor&apos;s datapath, including the ALU, 
            register file, memory, and control unit, as well as defining the 
-           processor's instruction set architecture (ISA). To begin, I designed 
+           processor&apos;s instruction set architecture (ISA). To begin, I designed 
            the datapath components in Verilog and tested their behavior through 
            simulation. Once I was confident in the correctness of the datapath, 
-           I moved on to designing the processor's ISA. Using Verilog, I defined 
+           I moved on to designing the processor&apos;s ISA. Using Verilog, I defined 
            the behavior of each instruction and its interaction with the datapath. 
            Next, I tested the processor by writing assembly code and running it 
            on a simulator or on the actual hardware. Through iteration and 
-           optimization, I improved the processor's performance and reduced power 
+           optimization, I improved the processor&apos;s performance and reduced power 
            consumption.
           </p>
           <a

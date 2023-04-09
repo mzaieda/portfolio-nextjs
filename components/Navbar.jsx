@@ -17,10 +17,10 @@ const Navbar = () => {
 
   // useEffect(() => {
   //   if (
-  //     router.asPath === '/property' ||
-  //     router.asPath === '/crypto' ||
-  //     router.asPath === '/netflix' ||
-  //     router.asPath === '/twitch'
+  //     router.asPath === '/pegasus' ||
+  //     router.asPath === '/processor' ||
+  //     router.asPath === '/simulator' ||
+  //     router.asPath === '/tomasulo'
   //   ) {
   //     setNavBg('transparent');
   //     setLinkColor('#ecf0f3');
@@ -55,17 +55,6 @@ const Navbar = () => {
       }
     >
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-        <Link href='/'>
-          <a>
-            <Image
-              src={NavLogo}
-              alt='/'
-              width='125'
-              height='50'
-              className='cursor-pointer'
-            />
-          </a>
-        </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
             <li className='ml-10 text-sm uppercase hover:border-b'>
@@ -115,16 +104,7 @@ const Navbar = () => {
         >
           <div>
             <div className='flex w-full items-center justify-between'>
-              <Link href='/'>
-                <a>
-                  <Image
-                    src={NavLogo}
-                    width='87'
-                    height='35'
-                    alt='/'
-                  />
-                </a>
-              </Link>
+  
               <div
                 onClick={handleNav}
                 className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'
@@ -134,7 +114,7 @@ const Navbar = () => {
             </div>
             <div className='border-b border-gray-300 my-4'>
               <p className='w-[85%] md:w-[90%] py-4'>
-                Let&#39;s build something legendary together
+                LET&#39;S KNOW EACH OTHER
               </p>
             </div>
           </div>
@@ -177,7 +157,7 @@ const Navbar = () => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                  href='https://www.linkedin.com/in/mohammed-zaieda/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -186,7 +166,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/fireclint'
+                  href='https://github.com/mzaieda'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -194,7 +174,7 @@ const Navbar = () => {
                     <FaGithub />
                   </div>
                 </a>
-                <Link href='/#contact'>
+                <Link href='mailto:m.zaieda@gmail.com'>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'

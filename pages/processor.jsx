@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
+import riscv from '../public/assets/projects/risc.png'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const property = () => {
+const processor = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -13,12 +13,12 @@ const property = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={propertyImg}
+          src={riscv}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Property Finders</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className='py-2'>RISC-V 32I Processor</h2>
+          <h3>Computer Architecture / Verilog / RISC-V</h3>
         </div>
       </div>
 
@@ -27,51 +27,48 @@ const property = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+          I created a RISC-V 32-bit processor using Verilog, 
+          a hardware description language. The project involved designing
+           and implementing the processor's datapath, including the ALU, 
+           register file, memory, and control unit, as well as defining the 
+           processor's instruction set architecture (ISA). To begin, I designed 
+           the datapath components in Verilog and tested their behavior through 
+           simulation. Once I was confident in the correctness of the datapath, 
+           I moved on to designing the processor's ISA. Using Verilog, I defined 
+           the behavior of each instruction and its interaction with the datapath. 
+           Next, I tested the processor by writing assembly code and running it 
+           on a simulator or on the actual hardware. Through iteration and 
+           optimization, I improved the processor's performance and reduced power 
+           consumption.
           </p>
           <a
-            href='https://github.com/fireclint/property-finder'
+            href='https://github.com/mzaieda/RISCV32I-M-Processor-Verilog'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
-          <a
-            href='https://property-finder-development.web.app/'
+          {/* <a
+            href='https://cryptobase-yt.web.app/'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4'>Demo</button>
-          </a>
+          </a> */}
+
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
-            <div className='grid grid-cols-3 md:grid-cols-1'>
+            <div className='grid grid-cols-3 md:grid-cols-1 '>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
+                <RiRadioButtonFill className='pr-1' /> RISC-V architecture
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind
+                <RiRadioButtonFill className='pr-1' /> Verilog
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Google API
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Zillow API
+                <RiRadioButtonFill className='pr-1' /> Instruction set architecture (ISA)
               </p>
             </div>
           </div>
@@ -84,4 +81,4 @@ const property = () => {
   );
 };
 
-export default property;
+export default processor;

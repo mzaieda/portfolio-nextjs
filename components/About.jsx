@@ -8,31 +8,31 @@ const About = () => {
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
-          <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
+          <p className='uppercase text-xl tracking-widest text-[#b83232]'>
             About
           </p>
-          <h2 className='py-4'>Who I Am</h2>
+          <h2 className='py-4'>What is My Story?</h2>
           <p className='py-2 text-gray-600'>
-            I specialize in building mobile responsive front-end UI applications
-            that connect with API’s and other backend technologies. I’m
-            passionate about learning new technologies and understand there is
-            more than one way to accomplish a task. Though I am most proficient
-            in building front-end applications using HTML, CSS, Javascript, and
-            React, I am a quick learner and can pick up new tech stacks as
-            needed. I believe that being a great developer is not using one
-            specific language, but choosing the best tool for the job.
+            I'm passionate about software, machine learning, and their potential 
+            to solve complex problems and improve people's lives. Throughout my academic journey,
+            I have gained extensive experience in programming languages such as Python and C++ as well
+            as deep knowledge of mathematics, including linear algebra and multivariate analysis. 
+            My passion for technology has driven me to explore various software development and AI-related projects, 
+            including building web applications and implementing machine learning algorithms. I am also 
+            keen on staying up-to-date with the latest advancements in the field, attending tech events, 
+            and participating in hackathons. As a result, I am confident in my ability to tackle any 
+            challenge and thrive in fast-paced, dynamic environments.
           </p>
           <p className='py-2 text-gray-600'>
-            I started web developement in 2013 managing multiple e-commerce
-            websites on CMS platforms such as WordPress, BigCommerce, and
-            Shopify. I have experience working directly with clients and taking
-            mock wireframes all the way to deployed applications. In my spare
-            time I run Code Commerce, a Youtube channel where I teach web
-            developement and various front-end technologies.
+            I started coding in 2018 and I have recently graduated 
+            with a double major degree in Computer Engineering and Mathemtics. 
+            I have interned in two companies as a mobile and web developer using ReactJS, 
+            NodeJS for web and Flutter for mobile. And I also worked as a sofware engineer (part-time) specialized
+            in backed developement using Django and MongoDB. 
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
-              Check out some of my latest projects.
+              Check out some of my projects.
             </p>
           </Link>
         </div>

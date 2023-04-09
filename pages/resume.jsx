@@ -6,10 +6,10 @@ const resume = () => {
   return (
     <>
       <Head>
-        <title>Clint | Resume</title>
+        <title>Mohammed Zaieda | Resume</title>
         <meta
           name='description'
-          content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
+          content='I’m a software developer.'
         />
         <link rel='icon' href='/fav.png' />
       </Head>
@@ -17,17 +17,17 @@ const resume = () => {
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center'>Resume</h2>
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>Clint Briley</h2>
+          <h2 className='text-center'>Mohammed Zaieda</h2>
           <div className='flex'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/in/mohammed-zaieda/'
               target='_blank'
               rel='noreferrer'
             >
               <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
             </a>
             <a
-              href='https://github.com/fireclint'
+              href='https://github.com/mzaieda'
               target='_blank'
               rel='noreferrer'
             >
@@ -42,13 +42,13 @@ const resume = () => {
               <span className='px-1'>|</span> Complex Problem Solving
             </p>
           </div>
-          <div className='block sm:hidden'>
+          {/* <div className='block sm:hidden'>
             <p>Proven Leadership</p>
             <p className='py-2'>Web Development</p>
             <p>Complex Problem Solving</p>
-          </div>
+          </div> */}
         </div>
-        <p>
+        {/* <p>
           Analytical, innovative, and motivated web development professional
           with experience in customer service, team leadership, and
           organizational effectiveness in fast-paced and challenging
@@ -58,38 +58,27 @@ const resume = () => {
           with solid interpersonal abilities and complex problem-solving skills.
           Effective and proven track record of critical thinking, idea
           generation, and optimizing efficiencies.
-        </p>
+        </p> */}
 
         {/* Skills */}
         <div className='text-center py-4'>
-          <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
-          <p className='py-2'>
-            <span className='font-bold'>Technical Skills</span>
-            <span className='px-2'>|</span>Front-End Web Developer
-            <span className='px-2'>|</span> HTML
-            <span className='px-2'>|</span>CSS
-            <span className='px-2'>|</span>Javascript
-            <span className='px-2'>|</span>React
-            <span className='px-2'>|</span>Next JS
-            <span className='px-2'>|</span>SQL
-            <span className='px-2'>|</span>NoSQL
-            <span className='px-2'>|</span>Redux
-            <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> Firebase
-            <span className='px-2'>|</span> RESTAPI
-          </p>
-          <p className='py-2'>
-            <span className='font-bold'>Amazon Web Services</span>
-            <span className='px-2'>|</span>Amazon Web Services Cloud
-            Practitioner
-          </p>
+        <a href="/api/downloadCv" download>
+          <h5 className='text-center underline text-[18px] py-2'>Download CV</h5>
+        </a>
         </div>
 
-        <h5 className='text-center underline text-[18px] py-4'>
+
+        <div className='text-center py-4'>
+        <a href="/api/downloadRes" download>
+          <h5 className='text-center underline text-[18px] py-2'>Download Resume</h5>
+        </a>
+        </div>
+
+        {/* <h5 className='text-center underline text-[18px] py-4'>
           Professional Experience
         </h5>
         {/* Experience */}
-        <div className='py-6'>
+        {/* <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
             INFINITE TECH
@@ -115,11 +104,11 @@ const resume = () => {
               ensuring a smooth migration process.
             </li>
           </ul>
-        </div>
+        </div> */}
 
 
         {/* Personal Experience */}
-        <div className='py-6'>
+        {/* <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
               Teaching & Mentoring Web Development
@@ -139,15 +128,15 @@ const resume = () => {
               concepts and code reviews.
             </li>
           </ul>
-        </div>
+        </div> */}
 
         {/*  */}
-        <h5 className='text-center underline text-[18px] py-4'>
+        {/* <h5 className='text-center underline text-[18px] py-4'>
           Other Professional Experience
-        </h5>
+        </h5> */}
       
         {/* Experience */}
-        <div className='py-6'>
+        {/* <div className='py-6'>
           <p className='italic'>
             <span className='font-bold'>CITY OF SHERMAN, TX</span>
             <span className='px-2'>|</span>Sherman, TX
@@ -181,7 +170,7 @@ const resume = () => {
               Support, among others.
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </>
   );
